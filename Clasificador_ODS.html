@@ -7517,7 +7517,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Clasificaci%C3%B3n-de-Textos-seg%C3%BAn-Objetivos-de-Desarrollo-Sostenible-(ODS)">Clasificación de Textos según Objetivos de Desarrollo Sostenible (ODS)<a class="anchor-link" href="#Clasificaci%C3%B3n-de-Textos-seg%C3%BAn-Objetivos-de-Desarrollo-Sostenible-(ODS)">¶</a></h1><p><strong>Autores:</strong> William Florez<br/>
+<h1 id="Clasificaci%C3%B3n-de-Textos-seg%C3%BAn-Objetivos-de-Desarrollo-Sostenible-(ODS)">Clasificación de Textos según Objetivos de Desarrollo Sostenible (ODS)<a class="anchor-link" href="#Clasificaci%C3%B3n-de-Textos-seg%C3%BAn-Objetivos-de-Desarrollo-Sostenible-(ODS)">¶</a></h1><p><strong>Autores:</strong> William Florez, Lucia Osorio<br/>
 <strong>Fecha:</strong> 2026-03-08</p>
 <p>Este notebook implementa un clasificador multiclase que asigna textos en español a uno de los 16 Objetivos de Desarrollo Sostenible (ODS) presentes en el dataset OSDG Community Dataset v2023. El pipeline integra vectorización TF-IDF, reducción de dimensionalidad con TruncatedSVD y clasificación con LinearSVC, optimizado mediante búsqueda bayesiana de hiperparámetros.</p>
 <table>
@@ -8698,7 +8698,7 @@ Para ejecutar la aplicacion Streamlit:
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0fe2d54b">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3f18de57">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8721,14 +8721,7 @@ Para ejecutar la aplicacion Streamlit:
 <span class="k">CMD</span><span class="w"> </span><span class="p">[</span><span class="s2">"streamlit"</span><span class="p">,</span><span class="w"> </span><span class="s2">"run"</span><span class="p">,</span><span class="w"> </span><span class="s2">"app_streamlit.py"</span><span class="p">,</span><span class="w"> </span><span class="s2">"--server.port=8501"</span><span class="p">,</span><span class="w"> </span><span class="s2">"--server.address=0.0.0.0"</span><span class="p">,</span><span class="w"> </span><span class="s2">"--server.headless=true"</span><span class="p">]</span>
 </pre></div>
 <p>Se utiliza <code>python:3.12-slim</code> para mantener la imagen liviana. Solo se copian los artefactos necesarios para la prediccion (<code>app_streamlit.py</code> y los <code>.joblib</code>), sin incluir el dataset ni el notebook de entrenamiento.</p>
-<h3 id="Pasos-de-despliegue">Pasos de despliegue<a class="anchor-link" href="#Pasos-de-despliegue">¶</a></h3><ol>
-<li>Crear un repositorio en GitHub con el codigo y los artefactos del modelo.</li>
-<li>Conectar el repositorio a Railway desde el dashboard.</li>
-<li>Railway detecta el <code>Dockerfile</code> y construye la imagen automaticamente.</li>
-<li>Configurar la variable de entorno <code>PORT=8501</code> si Railway no la asigna por defecto.</li>
-<li>Railway genera un dominio publico para acceder a la aplicacion.</li>
-</ol>
-<h3 id="Aplicacion-desplegada">Aplicacion desplegada<a class="anchor-link" href="#Aplicacion-desplegada">¶</a></h3><p>La aplicacion esta disponible en: <a href="https://usl-miniproject2-production.up.railway.app/">https://usl-miniproject2-production.up.railway.app/</a></p>
+<h3 id="Aplicacion-desplegada">Aplicacion desplegada<a class="anchor-link" href="#Aplicacion-desplegada">¶</a></h3><p>La aplicacion esta disponible en: <a href="https://usl-miniproject-2-production.up.railway.app/">https://usl-miniproject-2-production.up.railway.app/</a></p>
 </div>
 </div>
 </div>
